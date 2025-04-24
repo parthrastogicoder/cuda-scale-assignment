@@ -1,4 +1,5 @@
-# CudaAtScaleIP
+# Cuda scale assignment
+
 
 ## Project Description
 
