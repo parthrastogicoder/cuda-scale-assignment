@@ -8,15 +8,15 @@ Implemented Filters
 
 The following filters are currently supported:
 
-Canny Edge Detection (canny)
+# Canny Edge Detection (canny)
 
-Sobel Edge Detection (sobel)
+# Sobel Edge Detection (sobel)
 
-Gaussian Smoothing (gauss)
+# Gaussian Smoothing (gauss)
 
-Sharpening (sharpen)
+# Sharpening (sharpen)
 
-Features
+## Features
 
 Input Format: Supports BMP and PGM image files.
 
@@ -24,15 +24,15 @@ Output: Allows specifying an output file or directory for processed images.
 
 Single Image Processing: Due to an NPP kernel execution issue, only one image can be processed per run.
 
-Requirements
+## Requirements
 
 The project requires the Coursera Lab environment to execute. This environment provides a pre-configured CUDA setup, eliminating the need for additional configuration.
 
-Project Structure
+## Project Structure
 
 The project is based on the CUDA at Scale for the Enterprise Course Project Template.
 
-Usage
+## Usage
 
 Select an input image in BMP or PGM format.
 
